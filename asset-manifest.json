@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/enruta-website/static/css/main.e6c13ad2.css",
+    "main.js": "/enruta-website/static/js/main.1f27feeb.js",
+    "static/js/422.8c648647.chunk.js": "/enruta-website/static/js/422.8c648647.chunk.js",
+    "static/media/profile.jpg": "/enruta-website/static/media/profile.8a701d4091cb87ac9208.jpg",
+    "static/media/jpg-1.jpg": "/enruta-website/static/media/jpg-1.50a11f1112848c3bd17b.jpg",
+    "static/media/svg-1.svg": "/enruta-website/static/media/svg-1.c9c88a21e91731441defcbe4fd28df2c.svg",
+    "static/media/svg-2.svg": "/enruta-website/static/media/svg-2.882a2cd55b0d7b00d26fa8b75df947a2.svg",
+    "static/media/svg-3.svg": "/enruta-website/static/media/svg-3.335c6aa86c2cf6a13e044975c1beee48.svg",
+    "index.html": "/enruta-website/index.html",
+    "main.e6c13ad2.css.map": "/enruta-website/static/css/main.e6c13ad2.css.map",
+    "main.1f27feeb.js.map": "/enruta-website/static/js/main.1f27feeb.js.map",
+    "422.8c648647.chunk.js.map": "/enruta-website/static/js/422.8c648647.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.1f27feeb.js"
+  ]
+}
