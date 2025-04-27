@@ -6,7 +6,8 @@ export const PricingSection = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: #4b59f7;
+  max-width: 1280px;
+  justify-self: center;
 `;
 
 export const PricingWrapper = styled.div`
@@ -14,6 +15,7 @@ export const PricingWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
+
   @media screen and (max-width: 960px) {
     margin: 0 30px;
     display: flex;
@@ -23,7 +25,7 @@ export const PricingWrapper = styled.div`
 `;
 
 export const PricingHeading = styled.h1`
-  color: #fff;
+  color: black;
   font-size: 48px;
   margin-bottom: 24px;
 `;
@@ -32,6 +34,10 @@ export const PricingContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 20px;
+
+
+
   @media screen and (max-width: 960px) {
     display: flex;
     flex-direction: column;
@@ -40,6 +46,17 @@ export const PricingContainer = styled.div`
     width: 100%;
   }
 `;
+
+export const ResponsiveImage = styled.img`
+  width: 30%;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+  @media screen and (max-width: 960px) {
+    width: 100%;
+  }
+`;
+
 
 export const PricingCard = styled(Link)`
   background: #242424;

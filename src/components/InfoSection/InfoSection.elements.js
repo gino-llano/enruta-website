@@ -4,7 +4,7 @@ import styled from 'styled-components';
 export const InfoSec = styled.div`
     color: #fff;
     padding: 160px 0;
-    background: ${({lightBg}) => (lightBg ? '#fff' : '#101522')};
+    background: ${({lightBg}) => (lightBg ? '#fff' : 'black')};
 `
 
 export const InfoRow = styled.div`
@@ -22,6 +22,7 @@ export const InfoColumn = styled.div`
   flex: 1;
   max-width: 50%;
   flex-basis: 50%;
+  gap: 20px;
 
   @media (min-width: 480px) and (max-width: 1200px) {
     max-width: 100%;
@@ -43,6 +44,7 @@ export const TextWrapper = styled.div`
   max-width: 540px;
   padding-top: 0;
   padding-bottom: 60px;
+  gap: 20px;
 
   @media (min-width: 480px) and (max-width: 1200px) {
     padding-bottom: 65px;
@@ -75,6 +77,7 @@ export const Img = styled.img`
   vertical-align: middle;
   display: inline-block;
   max-height: 500px;
+  border-radius: 10px;
 `;
 
 export const Heading = styled.h1`

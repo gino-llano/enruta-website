@@ -5,7 +5,8 @@ import {
   FaInstagram,
   FaYoutube,
   FaTwitter,
-  FaLinkedin
+  FaLinkedin,
+  
 } from 'react-icons/fa';
 import {
   FooterContainer,
@@ -34,7 +35,7 @@ function Footer() {
 
   return (
     <FooterContainer>
-      <FooterSubscription>
+      {/* <FooterSubscription>
         <FooterSubHeading>
           Join our exclusive membership to receive the latest news and trends
         </FooterSubHeading>
@@ -43,8 +44,8 @@ function Footer() {
           <FormInput name='email' type='email' placeholder='Your Email' />
           <Button fontBig>Subscribe</Button>
         </Form>
-      </FooterSubscription>
-      <FooterLinksContainer>
+      </FooterSubscription> */}
+      {/* <FooterLinksContainer>
         <FooterLinksWrapper>
           <FooterLinkItems>
             <FooterLinkTitle>About Us</FooterLinkTitle>
@@ -78,30 +79,34 @@ function Footer() {
             <FooterLink to='/'>Twitter</FooterLink>
           </FooterLinkItems>
         </FooterLinksWrapper>
-      </FooterLinksContainer>
+      </FooterLinksContainer> */}
       <SocialMedia>
         <SocialMediaWrap>
           <SocialLogo to='/'>
-            <SocialIcon />
-            ULTRA
+              <img src={'./assets/image.png'} alt="Logo" style={{
+                width: 50,
+                borderRadius: 25,
+                marginRight: 10
+              }}/>
+            EnRuta
           </SocialLogo>
-          <WebsiteRights>ULTRA © {date.getFullYear()} </WebsiteRights>
+          <WebsiteRights>EnRuta © {date.getFullYear()} </WebsiteRights>
           <SocialIcons>
             <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
               <FaFacebook />
             </SocialIconLink>
-            <SocialIconLink href='/' target='_blank' aria-label='Instagram'>
+            <SocialIconLink href='https://www.instagram.com/enrutaperu/' target='_blank' aria-label='Instagram'>
               <FaInstagram />
             </SocialIconLink>
             <SocialIconLink href='/' target='_blank' aria-label='YouTube' >
               <FaYoutube />
             </SocialIconLink>
-            <SocialIconLink href='/' target='_blank' aria-label='Twitter'>
+            {/* <SocialIconLink href='/' target='_blank' aria-label='Twitter'>
               <FaTwitter />
             </SocialIconLink>
             <SocialIconLink href='/' target='_blank' aria-label='LinkedIn'>
               <FaLinkedin />
-            </SocialIconLink>
+            </SocialIconLink> */}
           </SocialIcons>
         </SocialMediaWrap>
       </SocialMedia>

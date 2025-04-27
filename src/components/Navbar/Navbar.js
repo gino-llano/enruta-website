@@ -61,12 +61,15 @@ function Navbar() {
 
     return (
         <>
-        <IconContext.Provider value={{ color: '#fff' }}>
+        <IconContext.Provider value={{ color: 'black' }}>
             <Nav>
                 <NavbarContainer>
                     <NavLogo to='/'> 
-                        <NavIcon />
-                            ULTRA
+                        {/* <NavIcon /> */}
+                        <img src={'./assets/image.png'} alt="Logo" style={{
+                            width: 50
+                        }}/>
+                            EnRuta
                     </NavLogo>
                     <HamburgerIcon onClick={handleClick}>
                         {click ? <FaTimes /> : <FaBars />}
@@ -74,36 +77,18 @@ function Navbar() {
                     <NavMenu onClick={handleClick} click={click} >
                         <NavItem onClick={handleHomeClick} homeClick={homeClick}>
                             <NavLinks to='/' onClick={closeMobileMenu}>
-                                Home
+                                Inicio
                             </NavLinks>
                         </NavItem>
                     
                     
                         <NavItem onClick={handleServicesClick} servicesClick={servicesClick}>
                             <NavLinks to='/services' onClick={closeMobileMenu}>
-                                Services
+                                Términos y condiciones
                             </NavLinks>
                         </NavItem>
                     
                     
-                        <NavItem onClick={handleProductsClick} productsClick={productsClick}>
-                            <NavLinks to='/Products' onClick={closeMobileMenu}>
-                                Products
-                            </NavLinks>
-                        </NavItem>
-
-                        <NavItemBtn >
-                            {button ? (
-                                <NavBtnLink to='/sign-up'>
-                                    <Button primary>SIGN UP</Button>
-                                </NavBtnLink>
-                            ) : (
-                                <NavBtnLink to='/sign-up'>
-                                    <Button onClick={closeMobileMenu} fontBig primary>SIGN UP</Button>
-                                </NavBtnLink>
-                            )}
-                            
-                        </NavItemBtn>
                     </NavMenu>
                 </NavbarContainer>
             </Nav>

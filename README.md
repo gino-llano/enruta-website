@@ -25,3 +25,8 @@ I referred to this doc for understanding styled components - [styled component d
 
 # Credits
 @briandesign
+
+
+# Use
+set NODE_OPTIONS=--openssl-legacy-provider
+npm start

@@ -4,13 +4,13 @@ export const homeObjOne = {
     lightTopLine: true,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'Marketing Agency',
-    headline: 'Lead Generation Specialist for Online Businesses',
+    topLine: 'EnRuta',
+    headline: 'Comparte viajes, divide costos',
     description:
-      'We help business owners increase their revenue. Our team of unique specialist can help you achieve your business goals.',
-    buttonLabel: 'Get Started',
+      'Ayudamos a que puedas encontrar tu viaje ideal y compartirlo con otras personas.',
+    buttonLabel: 'Comienza ahora',
     imgStart: '',
-    img: require('../../images/svg-1.svg'),
+    img: require('../../images/jpg-1.jpg'),
     alt: 'Credit Card',
     start: ''
   };
